@@ -247,8 +247,8 @@ hr {
 
 .c1:hover {
   transform: translateY(-6px) scale(1.03);
-  border-color: #ff3333;
-  background-color: #fff5f5;
+  border-color: #8054fa;
+  background-color: #dedbf5;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
@@ -294,7 +294,7 @@ hr {
 }
 
 .project-card {
-  background: #fff;
+  background: #e7e7e7;
   padding: 20px;
   border-radius: 16px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -303,6 +303,7 @@ hr {
 
 .project-card:hover {
   transform: translateY(-6px);
+  background-color: #e7e7e78f;
 }
 
 .project-card img {
@@ -411,8 +412,8 @@ hr {
 }
 
 .service-card img {
-  width: 100px;
-  margin-bottom: 15px;
+  width: 140px;
+  margin-bottom: 10px;
   z-index: 1;
   position: relative;
 }
@@ -690,7 +691,7 @@ body {
   flex-direction: column;
   z-index: 9999;
   overflow: hidden;
-  color: #00f0ff;
+  color: #a1b4f5;
   text-align: center;
 }
 
@@ -762,6 +763,8 @@ body {
   .about img {
     width: 100%;
     height: auto;
+    margin-top: 40px;
+
   }
 
   .ul-list {
@@ -817,6 +820,10 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
+  }
+
+  .footer {
+    padding: 15px 10px;
   }
 
   .footer-links {
